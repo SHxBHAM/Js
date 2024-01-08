@@ -11,7 +11,7 @@ fs.readFile('./03-sample.txt',"utf-8",function(err,data){      //this is just ho
 console.log("helloworld") // first this line will be printed as readfile is a async function and our control line will shift here instead of waiting for the file
 // to be accessed and read.
 //  if we give another costly task here the control will first complete that task instead of consoling the data of the text file as the control needs to 
-// be idol before running a async functions even if its ready.
+// be idol before running a async functions even if its ready.  
 // for instance 
 let a = 0
 for(i=0;i<=10000;i++){

@@ -16,3 +16,6 @@ function onDone(data){
     console.log(data)
 }
 shubhxmsreadfile().then(onDone); 
+// any async function we create on our own will just be a wrapper over another async function
+// that we get in js out of the box 
+// promise works under the hood same as callback syntax does

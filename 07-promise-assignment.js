@@ -23,7 +23,7 @@ let myPromise = new Promise((resolve)=>{
         resolve("step 1 complete");
     }, 3000);
 })
-let dusrapromise = myPromise
+ myPromise
 .then((ded)=>{
     console.log(ded)
     return new Promise((resolve)=>{
